@@ -62,7 +62,11 @@ function App() {
       <audio ref={audioRef} style={{ display: 'none' }} />
       
       {currentPage === 'main' ? (
-        <MainPage onNavigate={(page) => handleFullNavigation(page)} />
+        <MainPage 
+          onNavigate={(page) => handleFullNavigation(page)} 
+          stats={stats}
+          students={rankedStudents}
+        />
       ) : (
         <>
           <Header />
