@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Header } from './components/Header';
-import { MainPage } from './components/MainPage';
+import MainPage from './components/MainPage';
 import { Navigation } from './components/Navigation';
 import { ExamSchedule } from './components/ExamSchedule';
 import { SearchSection } from './components/SearchSection';
