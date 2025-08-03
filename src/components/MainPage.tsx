@@ -1,8 +1,8 @@
 import React from 'react';
-import SearchSection from './SearchSection';
-import StatsSection from './StatsSection';
-import AllResultsSection from './AllResultsSection';
-import ExamSchedule from './ExamSchedule';
+import { SearchSection } from './SearchSection';
+import { StatsSection } from './StatsSection';
+import { AllResultsSection } from './AllResultsSection';
+import { ExamSchedule } from './ExamSchedule';
 
 interface MainPageProps {
   onNavigate: (page: string) => void;
